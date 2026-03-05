@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Tesla Secret They Buried for 130 Years Is Finally Out</title>
+  <meta name="description" content="In 1894, Tesla patented a device that could cut any electricity bill by 80% instantly. Power companies made sure it was forgotten — until now. Costs $73 to build. Takes under 4 hours." />
+  <meta property="og:title" content="The Tesla Secret Buried for 130 Years Is Finally Out" />
+  <meta property="og:description" content="102,244 families are already using it. Costs $73. Takes under 4 hours. No solar panels. No electrician. Works during blackouts." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --black: #09090b; --dark: #0f1115; --card: #15181f; --card2: #1a1d26;
+      --border: #272b35; --yellow: #e8c840; --red: #c0392b; --red2: #e74c3c;
+      --white: #eeeae0; --muted: #888; --green: #27ae60;
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--black); color: var(--white); font-family: 'Barlow', sans-serif; font-size: 17px; line-height: 1.7; overflow-x: hidden; }
+
+    .ticker { background: var(--red); color: #fff; padding: 9px 20px; text-align: center; font-family: 'Oswald', sans-serif; font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase; animation: tickpulse 3s ease-in-out infinite; }
+    @keyframes tickpulse { 0%,100% { background: var(--red); } 50% { background: #96281b; } }
+
+    .hero { background: var(--dark); padding: 60px 20px 52px; text-align: center; position: relative; overflow: hidden; }
+    .hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 70% 50% at 50% 0%, rgba(232,200,64,.08) 0%, transparent 70%), radial-gradient(ellipse 50% 40% at 80% 100%, rgba(192,57,43,.06) 0%, transparent 60%); pointer-events: none; }
+    .eyebrow { display: inline-block; background: var(--red); color: #fff; font-family: 'Oswald', sans-serif; font-size: 11px; letter-spacing: 3px; text-transform: uppercase; padding: 5px 14px; border-radius: 2px; margin-bottom: 26px; animation: fadeDown .6s ease both; }
+    .hero h1 { font-family: 'Oswald', sans-serif; font-size: clamp(28px, 5.5vw, 56px); font-weight: 700; line-height: 1.1; max-width: 840px; margin: 0 auto 16px; color: var(--white); animation: fadeDown .7s ease .1s both; }
+    .hero h1 em { color: var(--yellow); font-style: normal; display: block; }
+    .hero-sub { font-family: 'Source Serif 4', serif; font-style: italic; font-weight: 300; font-size: clamp(16px, 2.3vw, 21px); color: #bbb8b0; max-width: 660px; margin: 0 auto; animation: fadeDown .8s ease .2s both; }
+
+    .proof-bar { background: var(--card); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); display: flex; justify-content: center; flex-wrap: wrap; }
+    .pb-item { display: flex; align-items: center; gap: 10px; padding: 14px 28px; border-right: 1px solid var(--border); font-size: 14px; color: #aaa; }
+    .pb-item:last-child { border-right: none; }
+    .pb-num { font-family: 'Oswald', sans-serif; font-size: 22px; font-weight: 700; color: var(--yellow); }
+
+    .divider { display: flex; align-items: center; gap: 14px; max-width: 560px; margin: 44px auto; padding: 0 20px; }
+    .divider::before, .divider::after { content:''; flex:1; height:1px; background: var(--border); }
+    .divider span { color: var(--yellow); font-size: 18px; opacity: .6; }
+
+    .wrap { max-width: 700px; margin: 0 auto; padding: 0 20px; }
+
+    .story-box { background: var(--card); border: 1px solid var(--border); border-left: 4px solid var(--yellow); border-radius: 6px; padding: 28px 30px; font-family: 'Source Serif 4', serif; font-size: 16.5px; color: #ccc8be; line-height: 1.85; }
+    .story-box p + p { margin-top: 16px; }
+    .story-box strong { color: var(--white); }
+    .story-box em { color: var(--yellow); font-style: normal; font-weight: 600; }
+
+    .slabel { font-family: 'Oswald', sans-serif; font-size: 11px; letter-spacing: 4px; text-transform: uppercase; color: var(--yellow); margin-bottom: 14px; }
+    h2 { font-family: 'Oswald', sans-serif; font-size: clamp(22px, 3.8vw, 32px); font-weight: 600; color: var(--white); line-height: 1.2; margin-bottom: 22px; }
+
+    .bullets { display: flex; flex-direction: column; gap: 12px; }
+    .bi { display: flex; align-items: flex-start; gap: 14px; background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 15px 18px; transition: border-color .2s; }
+    .bi:hover { border-color: rgba(232,200,64,.35); }
+    .bcheck { flex-shrink: 0; width: 23px; height: 23px; background: rgba(39,174,96,.12); border: 1px solid rgba(39,174,96,.35); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--green); font-size: 12px; margin-top: 2px; }
+    .btext { font-size: 15.5px; color: #c4c0b8; line-height: 1.55; }
+    .btext strong { color: var(--white); }
+
+    .quote-block { background: var(--card2); border: 1px solid var(--border); border-radius: 6px; padding: 22px 24px; margin-bottom: 12px; position: relative; }
+    .quote-block::before { content: '"'; font-family: 'Source Serif 4', serif; font-size: 64px; color: var(--yellow); opacity: .15; position: absolute; top: 4px; left: 16px; line-height: 1; }
+    .quote-text { font-family: 'Source Serif 4', serif; font-style: italic; font-size: 15.5px; color: #c4c0b8; line-height: 1.7; padding-left: 8px; }
+    .quote-author { margin-top: 10px; font-size: 13px; color: var(--muted); padding-left: 8px; }
+    .quote-author strong { color: #aaa; }
+
+    .wyg-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .wyg-item { background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 16px 16px 14px; }
+    .wyg-icon { font-size: 22px; margin-bottom: 8px; }
+    .wyg-title { font-weight: 600; font-size: 14px; color: var(--white); margin-bottom: 4px; }
+    .wyg-desc { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+    .nums { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+    .num-item { text-align: center; padding: 20px 12px; border-right: 1px solid var(--border); }
+    .num-item:last-child { border-right: none; }
+    .num-val { font-family: 'Oswald', sans-serif; font-size: 28px; font-weight: 700; color: var(--yellow); display: block; }
+    .num-lbl { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+
+    .warning-box { background: rgba(192,57,43,.08); border: 1px solid rgba(192,57,43,.3); border-left: 4px solid var(--red2); border-radius: 6px; padding: 20px 22px; }
+    .warning-box p { font-size: 15px; color: #c4c0b8; line-height: 1.65; }
+    .warning-box strong { color: var(--white); }
+
+    .paths { display: flex; flex-direction: column; gap: 10px; }
+    .path { display: flex; align-items: flex-start; gap: 14px; background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 16px 18px; }
+    .path-num { flex-shrink: 0; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Oswald', sans-serif; font-size: 14px; font-weight: 700; margin-top: 1px; }
+    .path-num.bad { background: rgba(192,57,43,.15); color: var(--red2); border: 1px solid rgba(192,57,43,.3); }
+    .path-num.ok  { background: rgba(232,200,64,.1);  color: var(--yellow); border: 1px solid rgba(232,200,64,.25); }
+    .path-num.yes { background: rgba(39,174,96,.15);  color: var(--green);  border: 1px solid rgba(39,174,96,.3); }
+    .path-body { font-size: 15px; color: #bbb8b0; line-height: 1.6; }
+    .path-body strong { color: var(--white); display: block; margin-bottom: 3px; font-size: 15.5px; }
+
+    .cta-wrap { text-align: center; padding: 0 20px; }
+    .cta-wrap h3 { font-family: 'Oswald', sans-serif; font-size: clamp(20px, 3.5vw, 28px); font-weight: 600; color: var(--white); margin-bottom: 8px; }
+    .cta-wrap p { font-size: 15px; color: var(--muted); margin-bottom: 22px; }
+    .price-box { display: inline-flex; align-items: center; gap: 14px; margin-bottom: 22px; background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 14px 24px; }
+    .price-old { font-family: 'Oswald', sans-serif; font-size: 24px; color: var(--muted); text-decoration: line-through; }
+    .price-arrow { color: var(--muted); font-size: 18px; }
+    .price-new { font-family: 'Oswald', sans-serif; font-size: 36px; font-weight: 700; color: var(--yellow); }
+    .price-note { font-size: 13px; color: var(--muted); margin-left: 4px; }
+    .cta-btn { display: block; background: var(--yellow); color: #0a0a0a; font-family: 'Oswald', sans-serif; font-size: 19px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 20px 40px; border-radius: 4px; text-decoration: none; max-width: 480px; margin: 0 auto; transition: all .2s ease; animation: glowpulse 2.5s ease-in-out infinite; }
+    @keyframes glowpulse { 0%,100% { box-shadow: 0 0 30px rgba(232,200,64,.2), 0 4px 16px rgba(0,0,0,.4); } 50% { box-shadow: 0 0 65px rgba(232,200,64,.5), 0 4px 24px rgba(0,0,0,.5); } }
+    .cta-btn:hover { background: #f5d840; transform: translateY(-2px); animation: none; box-shadow: 0 0 80px rgba(232,200,64,.6), 0 8px 24px rgba(0,0,0,.5); }
+    .cta-arrow { display:inline-block; margin-left:10px; transition: transform .2s; }
+    .cta-btn:hover .cta-arrow { transform: translateX(5px); }
+    .cta-micro { margin-top: 13px; font-size: 13px; color: #444; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 6px; }
+    .cta-micro span { color: var(--green); }
+
+    .guarantee { display: flex; align-items: center; gap: 18px; background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 20px 22px; max-width: 700px; margin: 0 auto; }
+    .g-badge { flex-shrink: 0; width: 54px; height: 54px; border-radius: 50%; background: rgba(39,174,96,.1); border: 2px solid rgba(39,174,96,.25); display: flex; align-items: center; justify-content: center; font-size: 24px; }
+    .g-text { font-size: 14px; color: #aaa; line-height: 1.55; }
+    .g-text strong { color: var(--white); display: block; margin-bottom: 2px; }
+
+    .disclosure { max-width: 700px; margin: 48px auto 0; padding: 20px 24px; border-top: 1px solid var(--border); text-align: center; }
+    .disclosure p { font-size: 12px; color: #3a3a3a; line-height: 1.7; }
+    footer { text-align: center; padding: 28px 20px 48px; font-size: 12px; color: #2a2a2a; }
+    footer a { color: #333; }
+
+    .mt32{margin-top:32px} .mt40{margin-top:40px} .mt48{margin-top:48px}
+
+    @keyframes fadeDown { from{opacity:0;transform:translateY(-14px)} to{opacity:1;transform:translateY(0)} }
+    .reveal { opacity:0; transform:translateY(22px); transition:opacity .65s ease,transform .65s ease; }
+    .reveal.visible { opacity:1; transform:translateY(0); }
+
+    /* MOBILE */
+    @media(max-width:480px){
+      .ticker{font-size:10px;letter-spacing:1.5px;padding:8px 12px}
+      .hero{padding:40px 16px 34px}
+      .hero h1{font-size:26px}
+      .hero-sub{font-size:15px;margin-top:14px}
+      .proof-bar{flex-direction:column}
+      .pb-item{border-right:none;border-bottom:1px solid var(--border);padding:11px 20px;justify-content:center}
+      .pb-item:last-child{border-bottom:none}
+      .wrap{padding:0 16px}
+      .story-box{padding:18px 16px;font-size:15px}
+      .wyg-grid{grid-template-columns:1fr}
+      .nums{grid-template-columns:1fr 1fr}
+      .num-item{border-right:none;border-bottom:1px solid var(--border);padding:14px 8px}
+      .num-item:nth-child(1),.num-item:nth-child(3){border-right:1px solid var(--border)}
+      .num-item:nth-child(3),.num-item:nth-child(4){border-bottom:none}
+      .num-val{font-size:22px}
+      .bi{padding:12px 12px;gap:10px}
+      .btext{font-size:14px}
+      .cta-wrap{padding:0 16px}
+      .cta-btn{font-size:16px;padding:17px 20px}
+      .price-box{flex-direction:column;gap:4px;padding:12px 18px}
+      .price-old{font-size:18px} .price-new{font-size:28px}
+      .guarantee{flex-direction:column;text-align:center;align-items:center;padding:16px;margin:0 16px}
+      .g-text{font-size:13px}
+      .path{padding:13px 12px;gap:10px}
+      .path-body{font-size:13.5px}
+      .disclosure{padding:18px 16px}
+      .disclosure p{font-size:11px}
+      h2{font-size:20px}
+      .divider{margin:32px auto}
+    }
+    @media(min-width:481px) and (max-width:768px){
+      .hero h1{font-size:34px}
+      .wyg-grid{grid-template-columns:1fr 1fr}
+      .guarantee{margin:0 20px}
+    }
+    @media(min-width:769px){ .guarantee{margin:0 auto} }
+  </style>
+</head>
+<body>
+
+<div class="ticker">⚡ &nbsp; Warning: Power Companies Are Raising Rates Again — Here's How 102,244 Families Are Paying 80% Less &nbsp; ⚡</div>
+
+<section class="hero">
+  <div class="eyebrow">GridFreeGuide — Exclusive Report</div>
+  <h1>The Tesla Secret They Buried for 130 Years<em>Is Finally Out</em></h1>
+  <p class="hero-sub">In 1894, Tesla patented a device that could cut your electricity bill by 80% instantly. Power companies made sure it stayed hidden — until a retired engineer brought it back.</p>
+</section>
+
+<div class="proof-bar">
+  <div class="pb-item"><span class="pb-num">102,244</span>&nbsp;families already using it</div>
+  <div class="pb-item"><span class="pb-num">$73</span>&nbsp;avg. parts cost</div>
+  <div class="pb-item"><span class="pb-num">80%</span>&nbsp;electricity bill reduction</div>
+  <div class="pb-item"><span class="pb-num">60</span>&nbsp;day guarantee</div>
+</div>
+
+<div class="divider reveal"><span>⚡</span></div>
+
+<div class="wrap reveal">
+  <div class="story-box">
+    <p>On <strong>January 9, 1894</strong>, Nikola Tesla walked out of the U.S. Patent Office with a big smile. Rumors say he yelled: <em>"This will change the energy world forever."</em></p>
+    <p>He invited five investors to his lab — two bankers, two energy executives, and one president of a major power company. He plugged one lightbulb into his device, then connected <strong>15 more lightbulbs to the same source.</strong> For every 100 watts consumed, his invention produced 500 free watts.</p>
+    <p>The investors went pale. This would mean their <strong>bankruptcy.</strong> On March 13, 1895, Tesla's Fifth Avenue laboratory burned to the ground. Over $50,000 in research, blueprints, and models gone in two hours. The New York Times quoted him: <em>"I am in too much grief to talk."</em></p>
+    <p>Before he died in 1943, Tesla shared the surviving plans with <strong>only one group of people</strong> — the villagers of Similjan, Croatia. They've been paying <strong>less than 20%</strong> of what other Croatians pay for electricity ever since.</p>
+  </div>
+</div>
+
+<div class="divider reveal"><span>⚡</span></div>
+
+<div class="wrap reveal">
+  <div class="slabel">The Invention</div>
+  <h2>The Bifilar Pancake Coil —<br>Tesla's Most Dangerous Patent</h2>
+  <div class="bullets">
+    <div class="bi"><div class="bcheck">✓</div><div class="btext"><strong>Patent #512,340 — January 9, 1894.</strong> Real. Filed. Verified. This is not a conspiracy theory — it's a U.S. patent you can look up right now.</div></div>
+    <div class="bi"><div class="bcheck">✓</div><div class="btext"><strong>Boosts any electricity source by up to 5x.</strong> For every 100 watts consumed, Tesla's coil generates 500 free watts. Tested. Documented. 102,244 families can confirm.</div></div>
+    <div class="bi"><div class="bcheck">✓</div><div class="btext"><strong>Parts cost around $73</strong> at any Home Depot or electronics store. Materials that cost a fortune in Tesla's era now cost a few dollars.</div></div>
+    <div class="bi"><div class="bcheck">✓</div><div class="btext"><strong>A 12-year-old could build it during lunch break.</strong> Step-by-step blueprints included. Our customers say it's "more fun than Legos."</div></div>
+    <div class="bi"><div class="bcheck">✓</div><div class="btext"><strong>Works 24/7 — including during blackouts.</strong> Silent, portable, weatherproof. No gas, no fumes, no expensive batteries needed. Set it and forget it.</div></div>
+    <div class="bi"><div class="bcheck">✓</div><div class="btext"><strong>Powers everything</strong> from small radios to refrigerators, plasma TVs, and AC units. Scale it up for under $210 total to power an entire home.</div></div>
+  </div>
+</div>
+
+<div class="wrap mt40 reveal">
+  <div class="slabel">Real Customers</div>
+  <h2>What People Are Saying</h2>
+  <div class="quote-block">
+    <p class="quote-text">My electric bills kept getting bigger and bigger, and for a while I was thinking about paying $15,000 on a solar panel system. Glad I didn't. The Energy Revolution does the trick, and it cost me a little under $108 to make it.</p>
+    <p class="quote-author"><strong>Ryan Harris</strong> — Austin, Texas</p>
+  </div>
+  <div class="quote-block">
+    <p class="quote-text">I'd never built anything in my entire life, yet this was so easy, I assembled it with my grandkids. Now we get free electricity 24-7.</p>
+    <p class="quote-author"><strong>James Wallace, 71</strong> — Colorado</p>
+  </div>
+</div>
+
+<div class="wrap mt40 reveal">
+  <div class="slabel">What's Inside</div>
+  <h2>Everything Included in the Blueprint</h2>
+  <div class="wyg-grid">
+    <div class="wyg-item"><div class="wyg-icon">📐</div><div class="wyg-title">Illustrated Blueprints</div><div class="wyg-desc">Detailed schematics based on Tesla's original Patent #512,340</div></div>
+    <div class="wyg-item"><div class="wyg-icon">📋</div><div class="wyg-title">Parts Cheat Sheet</div><div class="wyg-desc">Exact materials list — everything under $73 at Home Depot</div></div>
+    <div class="wyg-item"><div class="wyg-icon">🎯</div><div class="wyg-title">Step-by-Step Manual</div><div class="wyg-desc">Over-the-shoulder instructions for non-technical people</div></div>
+    <div class="wyg-item"><div class="wyg-icon">⚡</div><div class="wyg-title">3 Power Tweaks</div><div class="wyg-desc">Maximize output by 200% in less than 20 minutes</div></div>
+    <div class="wyg-item"><div class="wyg-icon">📧</div><div class="wyg-title">60-Day Email Support</div><div class="wyg-desc">Unlimited support from the team at every step</div></div>
+    <div class="wyg-item"><div class="wyg-icon">🛡️</div><div class="wyg-title">60-Day Guarantee</div><div class="wyg-desc">Full refund, no questions asked, even on day 59</div></div>
+  </div>
+</div>
+
+<div class="wrap mt40 reveal">
+  <div class="nums">
+    <div class="num-item"><span class="num-val">80%</span><div class="num-lbl">Bill Reduction</div></div>
+    <div class="num-item"><span class="num-val">$73</span><div class="num-lbl">Parts Cost</div></div>
+    <div class="num-item"><span class="num-val">&lt;4h</span><div class="num-lbl">Build Time</div></div>
+    <div class="num-item"><span class="num-val">102K+</span><div class="num-lbl">Families</div></div>
+  </div>
+</div>
+
+<div class="wrap mt40 reveal">
+  <div class="slabel">Your Decision</div>
+  <h2>Three Paths Lie Ahead of You</h2>
+  <div class="paths">
+    <div class="path"><div class="path-num bad">1</div><div class="path-body"><strong>Do nothing — hope for the best</strong>Keep having a heart attack every time you open your electric bill. Keep sweating through summers and freezing through winters to save a few bucks. Keep making the energy fat cats richer.</div></div>
+    <div class="path"><div class="path-num ok">2</div><div class="path-body"><strong>Try to figure it out yourself</strong>You can try — but buy the wrong part or miss one step and you'll end up with a fancy lawn ornament that generates zero watts. Our team spent years testing this so you don't have to reinvent the wheel.</div></div>
+    <div class="path"><div class="path-num yes">3</div><div class="path-body"><strong>Do what 102,244 families already did</strong>Get the complete tested blueprint. Follow the step-by-step guide. Start generating your own electricity this weekend. Completely risk-free for 60 days.</div></div>
+  </div>
+</div>
+
+<div class="wrap mt40 reveal">
+  <div class="warning-box">
+    <p>⚠️ <strong>This page may not stay up for long.</strong> The first time people heard about the Energy Revolution system, things turned out really bad for the inventor. Power companies have every reason to make this disappear again. <strong>If you're seeing this, act now.</strong></p>
+  </div>
+</div>
+
+<div class="mt48 cta-wrap reveal">
+  <h3>Get The Complete Blueprint Today</h3>
+  <p>Instant digital delivery. Start building this weekend.</p>
+  <div class="price-box">
+    <span class="price-old">$69</span>
+    <span class="price-arrow">→</span>
+    <span class="price-new">$39</span>
+    <span class="price-note">one-time</span>
+  </div><br>
+  <a href="https://rebrand.ly/energy-guide" class="cta-btn" target="_blank" rel="noopener">
+    Get The Blueprint Now <span class="cta-arrow">→</span>
+  </a>
+  <div class="cta-micro"><span>🔒</span> Secure checkout via ClickBank &nbsp;·&nbsp; Instant Access &nbsp;·&nbsp; 60-Day Guarantee</div>
+</div>
+
+<div class="wrap mt40 reveal">
+  <div class="guarantee">
+    <div class="g-badge">🛡️</div>
+    <div class="g-text">
+      <strong>60-Day No-Questions-Asked Guarantee</strong>
+      Build it, test it. If you're not saving money after 60 days, just send one email and get a full refund — even if it's the 23rd hour of the 59th day. Zero risk.
+    </div>
+  </div>
+</div>
+
+<div class="disclosure">
+  <p><strong style="color:#555">Affiliate Disclosure:</strong> This page contains affiliate links. If you purchase through my link, I may earn a small commission at no extra cost to you. I only recommend products I genuinely believe can help. Individual results may vary.</p>
+</div>
+
+<footer><p>© 2026 GridFreeGuide &nbsp;·&nbsp; <a href="#">Privacy Policy</a> &nbsp;·&nbsp; <a href="#">Disclaimer</a></p></footer>
+
+<script>
+  const els = document.querySelectorAll('.reveal');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach((e,i) => {
+      if(e.isIntersecting){ setTimeout(()=>e.target.classList.add('visible'),i*60); obs.unobserve(e.target); }
+    });
+  },{threshold:0.08});
+  els.forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
